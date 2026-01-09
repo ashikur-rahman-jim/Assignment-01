@@ -108,7 +108,9 @@ header .navbar-section {
     border: 1px solid #FFFFFF;
 }
 
-#note-section, #brain-section {
+#note-section,
+#brain-section,
+#early-access-section {
     margin-top: 110px;
 }
 
@@ -202,4 +204,29 @@ header .navbar-section {
 .brain-container .brain-content .lists li {
     font-size: 500;
     margin-bottom: 16px;
+}
+
+#early-access-section .access-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    padding: 0 260px;
+}
+
+.access-container .access-content {
+    text-align: center;
+    
+}
+
+.access-container .access-content h2 {
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.access-container .access-content p {
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
