@@ -56,3 +56,54 @@ header .navbar-section {
     color: #000000;
 }
 
+#banner-section {
+    height: 516px;
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+}
+
+#banner-section .banner-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    text-align: center;
+    padding: 90px 200px 0;
+}
+
+
+.banner-container .banner-content .p {
+    background-color: #FFFFFF;
+    color:#469165;
+    width: 239px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin: auto;
+    margin-bottom: 16px;
+    
+}
+
+.banner-container .banner-content h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+
+.banner-container .banner-content span {
+    color: #469165;
+}
+
+.banner-container .banner-content .text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+
+.banner-container .banner-content .btn2 {
+    width: 200px;
+}
+
+.banner-container .banner-content .btn3 {
+    background-color:transparent;
+    border: 1px solid #FFFFFF;
+}
