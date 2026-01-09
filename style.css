@@ -107,3 +107,60 @@ header .navbar-section {
     background-color:transparent;
     border: 1px solid #FFFFFF;
 }
+
+#note-section {
+    margin-top: 110px;
+}
+
+#note-section .note-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    text-align: center;
+}
+
+.note-container .note-content h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-container .note-content p {
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.note-container .card {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card .note-card {
+    width: 322px;
+    box-shadow: 0 6px 50px #00000025;
+}
+
+.card .note-card img {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+.card .note-card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card .note-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 20px;
+}
