@@ -108,7 +108,7 @@ header .navbar-section {
     border: 1px solid #FFFFFF;
 }
 
-#note-section {
+#note-section, #brain-section {
     margin-top: 110px;
 }
 
@@ -163,4 +163,43 @@ header .navbar-section {
     line-height: 20px;
     color: #627382;
     margin-bottom: 20px;
+}
+
+#brain-section .brain-container {
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    align-items: center;
+}
+
+.brain-container .brain-image {
+    width: 600px;
+}
+
+.brain-container .brain-content .p2 {
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-content h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-content .brain-text {
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+
+.brain-container .brain-content .lists {
+    list-style-image: url(./assets/CheckCircle.png);
+}
+
+.brain-container .brain-content .lists li {
+    font-size: 500;
+    margin-bottom: 16px;
 }
