@@ -230,3 +230,58 @@ header .navbar-section {
     margin-bottom: 16px;
     margin-top: 16px;
 }
+
+footer {
+    margin-top: 120px;
+    background-color:#001931;
+}
+
+footer .footer-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+}
+
+.footer-container .logo-social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.logo-social .logo img {
+    width: 139px;
+    height: 60px;
+}
+
+.logo-social .social p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.logo-social .social i {
+    background-color: #FFFFFF;
+    width: 25px;
+    padding: 4px;
+    border-radius: 50px;
+    margin-right: 6px;
+}
+
+.footer-container hr {
+    color: #E5E7EB;
+    opacity: 20%;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin-bottom: 30px;
+}
+
+/* .footer-container .copyright-message {
+    margin: auto;
+} */
+
+.footer-container .copy-right {
+    color: #FAFAFA;
+    text-align: center;
+    padding-bottom: 30px;
+}
